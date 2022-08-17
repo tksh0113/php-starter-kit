@@ -22,3 +22,12 @@ Simple environment to try PHP with devcontainer.
   "phpcs.standard": "./phpcs.xml", // Could not use ${workspaceFolder}
   "phpcs.enable": true,
 ```
+
+## Usage
+### Test
+- docker-compose exec php composer test
+
+### Lint
+- docker-compose exec php composer cs
+- docker-compose exec php composer csfix
+- docker-compose exec php composer md
