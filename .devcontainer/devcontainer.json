@@ -1,0 +1,27 @@
+{
+	"name": "dev-container",
+	"dockerComposeFile": [
+		"../docker-compose.yml"
+	],
+	"service": "php",
+	"workspaceFolder": "/var/www/html",
+	"extensions": [
+		/* General */
+		"dracula-theme.theme-dracula",
+		"PKief.material-icon-theme",
+		"Gruntfuggly.activitusbar",
+		"saikou9901.evilinspector",
+		"shardulm94.trailing-spaces",
+		"formulahendry.code-runner",
+		"MS-CEINTL.vscode-language-pack-ja",
+		/* PHP */
+		"bmewburn.vscode-intelephense-client",
+		"junstyle.php-cs-fixer",
+		"ikappas.phpcs",
+		"neilbrayfield.php-docblocker",
+		"xdebug.php-debug"
+	],
+	"settings": {
+		"editor.formatOnSave": true,
+	}
+}
